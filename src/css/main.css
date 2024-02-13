@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(231, 231, 231);
+}
+.mainBody {
+    width: 100%;
+}
+.mainBody header {
+    width: 100%;
+    height: 80px;
+    padding: .3rem .8rem;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+.mainFunctionality {
+    width: 90%;
+    /* height: 150px; */
+    background-color: #fff;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 2px;
+    margin: -3rem auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mainFunctionality > div {
+    width: 80px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainFunctionality .logoExpenses {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.mainFunctionality p {
+    font-size: 6px;
+}
+
+/* last operations */
+.lastOperations {
+    width: 90%;
+    margin: 5rem auto;
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px gray;
+    
+}
+.lastOperations > p {
+    margin: 0 auto;
+}
+.lastOperations .operations {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.lastOperations .operationQty {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.lastOperations .operationName {
+    margin-left: 0.5rem;
+}
+.lastOperations .operation {
+    display: flex;
+    margin-top: 1rem;
+}

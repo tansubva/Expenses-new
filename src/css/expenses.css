@@ -1,0 +1,121 @@
+/* ======expenses======= */
+.expensesCreateBody {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 3px gray;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.expensesCreateBody button, .expensesCreateBody input, .expensesCreateBody .categoryList, .expensesCreateBody textarea {
+    cursor: pointer;
+}
+.expensesCreateBody button:hover {
+    background-color: rgb(173, 188, 159);
+}
+.expensesCreateBody p,.expensesCreateBody h3 {
+    margin: 0;
+}
+
+/* procedures */
+.procedures {
+    display: flex;
+    justify-content: space-between;
+}
+.procedures button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+    margin-top: 1rem;
+}
+/* inputs */
+.expensesCreateBody input {
+    border: none;
+    border-bottom: .5px solid gray;
+    margin: .5rem 0 1rem 0; 
+}
+.expensesCreateBody #dateExpenses {
+    margin-top: 1rem;
+}
+.expensesCreateBody input:focus, .expensesCreateBody textarea {
+    outline: none;
+}
+.expensesCreateBody #qty {
+    height: 50px;
+    font-size: 44px;
+}
+.expensesCreateBody #qty::placeholder {
+    font-size: 44px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.expensesCreateBody textarea {
+    padding: 0.5rem;
+}
+.addProcedure {
+    height: 40px;
+    width: 100%;
+    margin: 1rem auto;
+    border: none;
+    box-shadow: 1px 1px 3px gray;    
+}
+
+/* categories */
+.expensesCreateBody .categories,.expensesCreateBody .categories div  {
+    text-align: left;
+    margin: .5rem;
+}
+.expensesCreateBody .categories {
+    margin-bottom: 0;
+    padding: .5rem;
+    box-shadow: 1px 1px 3px gray;
+}
+.expensesCreateBody .categories .categoriesPreview {
+    display: flex;
+    justify-content: space-between;
+}
+.categories .categoryList {
+    height: 2rem;
+    padding-left: 1rem;
+    box-shadow: 1px 1px 3px gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.categoryList img {
+    width: 30px;
+    height: 30px;
+}
+.categoryList p, .categoryList img {
+    margin-left: .5rem;
+}
+/* dropdown */
+.modalCategories div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+    background-color: white;
+    border-radius: 20px;
+}
+.modalCategories {
+    background-color: rgb(173, 188, 159);
+    box-shadow: 1px 1px 3px gray;
+    margin: 0 .5rem;
+    padding: 1rem .5rem;
+}
+.categoryCreate {
+    padding-top: 30rem;
+    text-decoration: none;
+    color: gray;
+}
